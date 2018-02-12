@@ -16,7 +16,7 @@ public class ControllerClass {
 		
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		int firstNo,secondNo;
+		double firstNo,secondNo;
 		firstNo=view.getFirstNumber();
 		secondNo=view.getSecondNumber();
 	

@@ -32,19 +32,19 @@ public void listener(ActionListener handler){
 	add.addActionListener(handler);
 }
 
-public int getFirstNumber(){
-	int first;
+public double getFirstNumber(){
+	double first;
 	first=Integer.parseInt(NumberOne.getText());
 	return first;
 }
 
-public int getSecondNumber(){
-	int second;
-	second=Integer.parseInt(NumberTwo.getText());
+public double getSecondNumber(){
+	double second;
+	second=Double.parseDouble(NumberTwo.getText());
 	return second;
 }
 
-public void setResult(int result){
+public void setResult(double result){
 	this.result.setText(new DecimalFormat("##.###").format(result));
 }
 	

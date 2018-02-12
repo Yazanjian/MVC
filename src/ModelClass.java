@@ -1,12 +1,13 @@
 
 public class ModelClass {
 
-	private int result; 
-	public void add(int firstNumber,int SecondNumber){
+	private double result; 
+	public double add(double firstNumber,double SecondNumber){
 		result=firstNumber+SecondNumber;
+		return result;
 	}
 	
-	public int getResult(){
+	public double getResult(){
 		return result;
 	}
 	
